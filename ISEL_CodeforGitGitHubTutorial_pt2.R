@@ -111,3 +111,5 @@ plot_ly(data = pred.grid, z = ~Pred.Volume, x = ~Girth, y = ~Height, opacity = 0
 plot_ly(data = pred.grid, z = ~Pred.Volume, x = ~Girth, y = ~Height, opacity = 0.5) %>%
   add_markers(marker = list(size = 2), name = "predicted") %>%
   add_markers(data = trees, z = ~Volume, x = ~Girth, y = ~Height, marker = list(color = "green", size = 4), name = "Observed changed color")
+
+TEST AGAIN
